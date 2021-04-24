@@ -18,8 +18,8 @@ body {
 
 .header {
     grid-area: header;
-    background-color: #1867c0;
-    color: white;
+    background-color: #ffd3ff;
+    color: #7700ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,13 +59,13 @@ body {
 
 .footer {
     grid-area: footer;
-    background-color: #fff;
+    background-color: #ffd3ff;
+    color: #7700ff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
     padding-right: 20px;
-    color: #444;
 }
 
 .modules {
@@ -195,7 +195,7 @@ hr {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #555;
+    background-color: #afafaf;
 }
 
 .navegation > a {
