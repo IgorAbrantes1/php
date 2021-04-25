@@ -23,8 +23,97 @@
     <main class="main">
         <div class="container">
             <nav class="modules">
+                <div class="module laranja-escuro">
+                    <h3>Módulo 10</h3>
+                    <ul>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="module roxo-escuro">
+                    <h3>Módulo 09</h3>
+                    <ul>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="module azul-escuro">
+                    <h3>8. Paradigma 0.0.</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=classe">Primeira Classe</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=data">Classe Data</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=constructor_destructor">Contrutor e Destrutor</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=heranca">Herança</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=visibilidade">Visibilidade</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=static">Membros Estáticos</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=interface">Interface</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=abstract">Classe Abstrata</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=desafio_erros">Desafio 7 Erros</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=final">Modificador Final</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=traits_01">Traits #01</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=traits_02">Traits #02</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=magic_methods
+                            ">Métodos Mágicos</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=polimorfismo
+                            ">Polimorfismo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="module vermelho-escuro">
+                    <h3>7. Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="module verde-escuro">
+                    <h3>6. Repetição</h3>
+                    <ul>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="module laranja">
+                    <h3>5. Array</h3>
+                    <ul>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="module roxo">
-                    <h3>4 - Controle</h3>
+                    <h3>4. Controle</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=if_else">If Else</a>
@@ -53,7 +142,7 @@
                     </ul>
                 </div>
                 <div class="module azul">
-                    <h3>3 - Variáveis</h3>
+                    <h3>3. Variáveis</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a>
@@ -82,7 +171,7 @@
                     </ul>
                 </div>
                 <div class="module vermelho">
-                    <h3>2 - Tipos</h3>
+                    <h3>2. Tipos</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">Tipo Inteiro</a>
@@ -111,7 +200,7 @@
                     </ul>
                 </div>
                 <div class="module verde">
-                    <h3>1 - Básico</h3>
+                    <h3>1. Básico</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=ola">Olá PHP</a>
@@ -135,5 +224,6 @@
     </main>
     <fo oter class="footer">COD3R & IGOR ABRANTES © <?= date('Y'); ?></footer>
 </body>
+
 
 </html>
