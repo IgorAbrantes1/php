@@ -222,7 +222,7 @@
             </nav>
         </div>
     </main>
-    <fo oter class="footer">COD3R & IGOR ABRANTES © <?= date('Y'); ?></footer>
+    <footer class="footer">COD3R & IGOR ABRANTES © <?=date('Y');?></footer>
 </body>
 
 
