@@ -2,16 +2,6 @@
 
 class Model
 {
-    protected static $tableName = 'users';
-    protected static $columns = [
-        'id',
-        'name',
-        'password',
-        'email',
-        'start_date',
-        'end_date',
-        'is_admin',
-    ];
     protected $values = [];
 
     public function __construct($arr)
@@ -26,16 +16,6 @@ class Model
                 $this->$key = $value;
             }
         }
-    }
-
-    public function __get($key)
-    {
-        return $this->values[$key];
-    }
-
-    public function __set($key, $value)
-    {
-        $this->values[$key] = $value;
     }
 
     public static function get($filters = [], $columns = '*')
@@ -55,8 +35,8 @@ class Model
     public static function getResultSetFromSelect($filters = [], $columns = '*')
     {
         $sql = "SELECT {$columns} FROM "
-        . static::$tableName
-        . static::getFilters($filters);
+            . static::$tableName
+            . static::getFilters($filters);
         $result = Database::getResultFromQuery($sql);
 
         if ($result->num_rows === 0) {
@@ -87,5 +67,23 @@ class Model
         } else {
             return $value;
         }
+    }
+
+    public static function getOne($filters = [], $columns = '*')
+    {
+        $class = get_called_class();
+        $result = static::getResultSetFromSelect($filters, $columns);
+
+        return $result ? new $class($result->fetch_assoc()) : null;
+    }
+
+    public function __get($key)
+    {
+        return $this->values[$key];
+    }
+
+    public function __set($key, $value)
+    {
+        $this->values[$key] = $value;
     }
 }
