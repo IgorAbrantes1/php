@@ -3,9 +3,12 @@
         <span>
             <i class="icofont-heart text-danger"></i>
         </span>
-        <span>por IG<span class="text-danger">O</span>R</span>
+        <span>por <a href="https://github.com/igorabrantes1" class="text-decoration-none" style="color: #fff;">IG<span class="text-danger">O</span>R</span></a>
     </span>
 </footer>
+
+<script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
