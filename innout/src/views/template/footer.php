@@ -3,7 +3,7 @@
         <span>
             <i class="icofont-heart text-danger"></i>
         </span>
-        <span>por <a href="https://github.com/igorabrantes1" class="text-decoration-none" style="color: #fff;">IG<span class="text-danger">O</span>R</span></a>
+        <span>por <a href="https://github.com/igorabrantes1" style="text-decoration: none; color: #fff;">IG<span class="text-danger">O</span>R</span></a>
     </span>
 </footer>
 
