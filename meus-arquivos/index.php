@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if (!$_SESSION['user']) {
+    header('Location: login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,6 +23,9 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+    <nav class="navegation">
+
+    </nav>
     <main class="main">
         <div class="container">
             <?php require_once 'template/menu.php'; ?>
