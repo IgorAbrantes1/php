@@ -57,7 +57,7 @@
                     <td><?= $registry->getBalance() ?></td>
                 </tr>
             <?php endforeach; ?>
-            <tr class="bg-dark text-white">
+            <tr class="bg-primary text-white">
                 <td>Horas trabalhadas</td>
                 <td><?= $sumOfWorkedTime ?></td>
                 <td></td>

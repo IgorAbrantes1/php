@@ -32,10 +32,25 @@
                     </ul>
                 </div>
                 <div class="module roxo-escuro">
-                    <h3>Módulo 09</h3>
+                    <h3>9. Include</h3>
                     <ul>
                         <li>
-                            <a href="#"></a>
+                            <a href="exercicio.php?dir=includes&file=include">Include</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">Include Função</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_require">Include vs Require</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=require_return">Require & Return</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_once">Include Once</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=desafio">Desafio</a>
                         </li>
                     </ul>
                 </div>
@@ -88,30 +103,176 @@
                         </li>
                     </ul>
                 </div>
-                <div class="module vermelho-escuro">
-                    <h3>7. Funções</h3>
-                    <ul>
-                        <li>
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="module verde-escuro">
-                    <h3>6. Repetição</h3>
-                    <ul>
-                        <li>
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="module laranja">
-                    <h3>5. Array</h3>
-                    <ul>
-                        <li>
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="module vermelho-escuro">
+        <h3>7. Funções</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=escopo">
+                    Função & Escopo
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=args_retorno">
+                    Args & Retorno
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=palindromo">
+                    Desafio Palindromo
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=args_variaveis">
+                    Argumentos Variáveis
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=arg_padrao">
+                    Argumento Padrão
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=usando_tipos">
+                    Usando Tipos
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=anonimas">
+                    Funções Anônimas
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=closure_callable">
+                    Closure & Callable
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=recursividade">
+                    Recursividade
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=desafio_recursao">
+                    Desafio Recursão
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=retornando_funcao">
+                    Retornando Função
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=funcoes&file=map_filter">
+                    Map & Filter
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="module verde-escuro">
+        <h3>6. Repetições</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=for">
+                    Laço For
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=desafio_for">
+                    Desafio For
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=foreach">
+                    Foreach
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=break_continue">
+                    Break/Continue
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=desafio_impressao">
+                    Desafio Impressão
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=while">
+                    While/Do While
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=desafio_tabela">
+                    Desafio Tabela #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2">
+                    Desafio Tabela #02
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="module laranja">
+        <h3>5. Array</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=array&file=basico">
+                    Array
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=mapa">
+                    Mapa
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=desafio_index">
+                    Desafio Index
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=desafio_meses">
+                    Desafio Meses
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=operacoes">
+                    Operações
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=desafio_sorteio">
+                    Desafio Sorteio
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=multi">
+                    Multidimensionais
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=constantes">
+                    Arrays Constantes
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=get">
+                    $_GET
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=post">
+                    $_POST
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=array&file=comparacao">
+                    Comparação Arrays
+                </a>
+            </li>
+        </ul>
+    </div>
                 <div class="module roxo">
                     <h3>4. Controle</h3>
                     <ul>

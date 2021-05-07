@@ -11,6 +11,7 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="shortcut icon" type="imagem/x-icon" href="assets/img/icon.ico">
     <title>In N' Out</title>
 </head>
 
