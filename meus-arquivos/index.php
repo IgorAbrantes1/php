@@ -16,12 +16,11 @@
     </header>
     <main class="main">
         <div class="container">
-            <?php require_once 'menu.php'; ?>
+            <?php require_once 'template/menu.php'; ?>
         </div>
     </main>
 </body>
-<?php
-require_once 'template/footer.php';
-?>
+
+<?php require_once 'template/footer.php'; ?>
 
 </html>

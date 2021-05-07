@@ -2,9 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <?php
-    require_once 'template/head.php';
-    ?>
+    <?php require_once 'template/head.php'; ?>
     <link rel="stylesheet" href="assets/css/exercicio.css" />
     <title>Exercício</title>
 </head>
