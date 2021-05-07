@@ -2,16 +2,10 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <?php
+    require_once 'template/head.php';
+    ?>
 
-    <!-- Fonte -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- Título -->
     <title>Curso PHP</title>
 </head>
 
@@ -22,11 +16,12 @@
     </header>
     <main class="main">
         <div class="container">
-            <?php require_once 'menu.php';?>
+            <?php require_once 'menu.php'; ?>
         </div>
     </main>
-    <footer class="footer">COD3R & IGOR ABRANTES © <?=date('Y');?></footer>
 </body>
-
+<?php
+require_once 'template/footer.php';
+?>
 
 </html>

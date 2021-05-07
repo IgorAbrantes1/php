@@ -2,14 +2,9 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-
-    <!-- Fonte -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <?php
+    require_once 'template/head.php';
+    ?>
     <link rel="stylesheet" href="assets/css/exercicio.css" />
     <title>Exercício</title>
 </head>
@@ -30,9 +25,9 @@
             ?>
         </div>
     </main>
-    <footer class="footer">
-        COD3R & IGOR ABRANTES © <?= date('Y'); ?>
-    </footer>
+    <?php
+    require_once 'template/footer.php';
+    ?>
 </body>
 
 </html>
