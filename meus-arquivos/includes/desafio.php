@@ -3,6 +3,6 @@
 <?php
 
 require_once 'usuario.php';
-$usuario = new Usuario('Gustavo Mendonça', 21, 'gust_mend');
+$usuario = new Usuario('Igor Abrantes', 23, 'igorabrantes1');
 echo $usuario->apresentar();
 unset($usuario);
