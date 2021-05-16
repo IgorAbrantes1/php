@@ -1,9 +1,6 @@
 <?php
 
-session_start();
-if (!$_SESSION['user']) {
-    header('Location: login.php');
-}
+require_once 'verificacao.php';
 
 ?>
 
@@ -22,8 +19,12 @@ if (!$_SESSION['user']) {
         <h2>Visualização do exercício</h2>
     </header>
     <nav class="navegation">
+        <span class="user">
+            Usuário: <?= $_SESSION['user'] ?>
+        </span>
         <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem formatação</a>
-        <a href="index.php" class="vermelho">Voltar</a>
+        <a href="index.php">Voltar</a>
+        <a href="logout.php" class="vermelho">Sair</a>
     </nav>
     <main class="main">
         <div class="container">

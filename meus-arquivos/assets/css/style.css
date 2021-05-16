@@ -195,7 +195,7 @@ hr {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #afafaf;
+    background-color: #555;
 }
 
 .navegation > a {
@@ -215,7 +215,7 @@ hr {
     background-color: #f44336;
 }
 
-span.usuario {
+span.user {
     flex-grow: 1;
     justify-self: flex-start;
     color: #eee;
